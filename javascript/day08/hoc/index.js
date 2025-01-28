@@ -4,14 +4,14 @@ const q1 = arr.map((x, i) => {
   return i;
 });
 
-// quiz
+// quiz ❤️
 const q2 = Array(1001)
   .fill(0)
   .map((x, i) => i);
 
 console.log(q2);
 
-// quiz
+// quiz ❤️
 const q3 = Array(101)
   .fill(0)
   .map((x, i) => i)
@@ -25,7 +25,7 @@ Array(21)
 
 console.log(q3);
 
-// quiz
+// quiz ❤️
 const q4 = Array(101)
   .fill(0)
   .map((x, i) => i)
@@ -38,7 +38,7 @@ const q4 = Array(101)
 
 console.log(q4);
 
-// quiz
+// quiz ❤️
 //const result = [1, 2, 3, 4, 5].reduce( (acc, current) => acc + current,0 /* 생략가능: 시작 */);
 
 const makeZodic = (to, from) => {
