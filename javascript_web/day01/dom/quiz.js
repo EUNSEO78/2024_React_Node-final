@@ -5805,7 +5805,7 @@ const data = [
   },
 ];
 
-// quiz
+// quiz1
 
 data.forEach((x) => {
   document.body.style.display = "grid";
