@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Paperlogy-8ExtraBold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2")
+    format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+body {
+  font-family: "Paperlogy-8ExtraBold";
+}
+
+#login {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  margin: 100px;
+}
+
+#inputBox {
+  border: 2px solid black;
+  border-radius: 5px;
+
+  width: 100%;
+  height: 50px;
+  padding: 5px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#input {
+  border: none;
+  outline: none;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
