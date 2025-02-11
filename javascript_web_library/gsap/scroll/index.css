@@ -1,0 +1,24 @@
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  background-color: #f0f0f0;
+}
+.second {
+  background-color: #008ff519;
+  color: black;
+}
+.second > article {
+  width: 2000vw;
+  height: 100%;
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: pink;
+}
