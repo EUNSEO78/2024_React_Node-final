@@ -1,0 +1,37 @@
+section {
+  height: 100vh;
+  max-width: 95%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.test {
+  font-size: 80px;
+  text-align: center;
+}
+
+.sub {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  width: 500px;
+}
+.sub > h5 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold231;
+}
+.sub > p {
+  line-height: 1.5;
+}
+
+.main {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.main > h2 {
+  font-size: 96px;
+}
