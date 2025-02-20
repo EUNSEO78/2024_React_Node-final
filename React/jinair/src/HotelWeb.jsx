@@ -1,10 +1,11 @@
 import ShortcutButton from "./ShortcutButton";
 
 const HotelWeb = (props) => {
+  const { hotelWebCom, hotelWebComInfo } = props;
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <strong>{props.hotelWebCom}</strong>
-      <p>{props.hotelWebComInfo}</p>
+      <strong>{hotelWebCom}</strong>
+      <p>{hotelWebComInfo}</p>
       <ShortcutButton />
     </div>
   );
