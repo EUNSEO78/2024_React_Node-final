@@ -4,7 +4,7 @@ import HotelWeb from "./HotelWeb";
 const HotelWebCard = (props) => {
   const { src, hotelWebCom, hotelWebComInfo } = props;
   return (
-    <article
+    <div
       style={{
         width: "540px",
         height: "214px",
@@ -15,11 +15,12 @@ const HotelWebCard = (props) => {
         gap: "24px",
         border: "1px solid black",
         borderRadius: "20px",
+        margin: "30px 20px",
       }}
     >
       <HotelImg src={src} />
       <HotelWeb hotelWebCom={hotelWebCom} hotelWebComInfo={hotelWebComInfo} />
-    </article>
+    </div>
   );
 };
 

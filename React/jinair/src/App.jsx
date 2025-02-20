@@ -1,21 +1,19 @@
-import HotelWebCard from "./HotelWebCard";
+import PartnershipHotel from "./PartnershipHotel";
+import PartnershipLentalCar from "./PartnershipLentalCar";
+import PartnershipTourWifi from "./PartnershipTourWifi";
+import TabType from "./TabType";
 
 function App() {
-  const objArr = [
-    {
-      src: "https://images.jinair.com/newHom/images/web/contents/logo-bookingdot.png",
-      hotelWebCom: "Booking.com",
-      hotelWebComInfo:
-        "Browse through popular hotels around the world with no booking fees.",
-    },
-    {
-      src: "https://images.jinair.com/newHom/images/web/contents/logo-bookingdot.png",
-      hotelWebCom: "Booking.com",
-      hotelWebComInfo:
-        "Browse through popular hotels around the world with no booking fees.",
-    },
-  ];
-  return objArr.map((v) => <HotelWebCard {...v} />);
+  return (
+    <div>
+      <TabType />
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <PartnershipLentalCar />
+        <PartnershipHotel />
+        <PartnershipTourWifi />
+      </div>
+    </div>
+  );
 }
 
 export default App;
