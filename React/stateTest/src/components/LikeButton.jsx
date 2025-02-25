@@ -4,15 +4,12 @@
 import { useState } from "react";
 
 const LikeButton = () => {
-  const [isLike, setIsLike] = useState(false);
+  const [isLike, setIsLike] = useState("좋아요");
+  const changeLike = () => {
+    setIsLike((prev) => (prev === "좋아요" ? "좋아요 취소" : "좋아요"));
+  };
 
-  return (
-    <button
-      onClick={() => setIsLike((prev) => (isLike ? "좋아요" : "좋아요 취소"))}
-    >
-      {isLike}
-    </button>
-  );
+  return <button onClick={changeLike}>{isLike}</button>;
 };
 
 export default LikeButton;
